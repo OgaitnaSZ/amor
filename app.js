@@ -25,13 +25,10 @@ document.getElementById('primer2').addEventListener('click',()=>{
     document.getElementById('encuesta').style.display = 'flex';
 })
 
-
-
 //Mensaje ganador
 document.getElementById('listo').addEventListener('click', ()=>{
     document.getElementById('encuesta').style.display = 'none';
     mensaje.style.display = 'block'
-    mensaje.style.marginTop = '50%'
     mensaje.innerHTML = `
     <h1>¡Felicidades amor!<br>ฅ(^◕ᴥ◕^)ฅ</h1>
     <p>Ya somos novios uwu ahora abrazame</p>
@@ -67,6 +64,10 @@ document.getElementById('listo').addEventListener('click', ()=>{
                 <img src="nosotros.jpg">
                 <p>Te amo mucho baby ❤️</p>
                 <p>Seremos una linda pareja :D</p>
+                <div style="display:flex">
+                    <img style="width:48%" src="nvos.jpeg">
+                    <img style="width:48%" src="nyo.jpg">
+                </div>
             `);
         });
     }, 8000);
