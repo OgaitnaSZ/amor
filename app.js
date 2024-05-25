@@ -1,7 +1,8 @@
+sonido = new Audio('red-swan.mp3');
 $(document).ready(function(){
     $('#carta').on('click', function(){
         $(this).hide();
-        //sonido.play();
+        sonido.play();
         $('#mensaje').fadeIn(1000).animate({
             scale: '1.0'
         }, {
