@@ -32,7 +32,7 @@ document.getElementById('listo').addEventListener('click', ()=>{
     document.getElementById('encuesta').style.display = 'none';
     mensaje.style.display = 'block'
     mensaje.innerHTML = `
-    <h1>¡Felicidades amor!<br>ฅ(^◕ᴥ◕^)ฅ</h1>
+    <h1>¡Felicidades amor!<br>❤(ɔˆз(ˆ⌣ˆc)</h1>
     <p>Ya somos novios uwu ahora abrazame</p>
     <div id="emotes1">
         <img src="em1.webp" class="emote">
@@ -72,5 +72,6 @@ document.getElementById('listo').addEventListener('click', ()=>{
                 </div>
             `);
         });
+        document.getElementById('emotes1').style.top = 'auto';
     }, 6000);
 })

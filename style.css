@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f0f0f0;
 }
 main{
     display: flex;
@@ -39,7 +40,7 @@ p{
     width: 50%;
     z-index:1; 
     background-color: white;
-    border: 1px solid black;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     padding: 0.5em;
     text-align: center;
     transform: scale(0.0);
@@ -64,6 +65,9 @@ p{
 #encuesta{
     display: none;
     flex-direction: column;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    padding: 0.5em;
 }
 .preg{
     border: 1px solid black;
