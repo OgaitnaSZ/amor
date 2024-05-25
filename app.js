@@ -70,5 +70,5 @@ document.getElementById('listo').addEventListener('click', ()=>{
                 </div>
             `);
         });
-    }, 8000);
+    }, 6000);
 })
