@@ -20,6 +20,7 @@ $(document).ready(function(){
 mensaje = document.getElementById('mensaje');
 
 document.getElementById('primer2').addEventListener('click',()=>{
+    window.scrollTo({top: 0});
     mensaje.style.display = 'none';
     document.getElementById('primer2').style.display = 'none';
     document.getElementById('title').style.display = 'block';
